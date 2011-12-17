@@ -1,0 +1,15 @@
+{
+	"BundleType": "Application",
+	"AppIcon": {
+		"36x18": "customscrobbler.png"
+	},
+	"AppName": {
+		"en": "Customscrobbler"
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"RequiredPermissions": [
+		"http://slsh.ath.cx/"
+	]
+}

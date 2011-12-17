@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Customscrobbler</title>
+	<link rel="stylesheet" href="sp://import/css/adam.css">
+	<link rel="stylesheet" href="customscrobbler.css">
+	<script type="text/javascript">
+	window.onload = function() {
+        window.sp = getSpotifyApi(1);
+        window.customscrobbler = sp.require('customscrobbler');
+        window.customscrobbler.init();
+	}
+	</script>
+</head>
+<body>
+<h1 id="header">Welcome to Customscrobbler!</h1>
+<table id="scrobbling">
+</table>
+</body>
+</html>
